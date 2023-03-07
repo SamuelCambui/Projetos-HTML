@@ -1,0 +1,35 @@
+
+
+*{
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+
+.Container{
+    height: 100px;
+    width: 100%;
+    background-color: #383838;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Logo{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+ 
+}
+
+.Image{
+    height: 90px;
+    width: 90px;
+}
+
+
+     
+ 
