@@ -63,7 +63,9 @@
 
         <p>
             <label for="inivel">Nível de sastifação:</label>
-            <input type="range" name="nivel" id="inivel" min="1" max="5" value="2">
+            <input type="range" name="nivel" id="inivel" min="1" max="5" value="2"
+            oninput="ival.innerHTML = Number(inivel.value)">
+            <output id="ival">5</output>
         </p>
         <p>
             <label for="ifoto">Foto de Perfil:</label>
@@ -100,6 +102,22 @@
             <label for="imsg">Mensagem:</label><br>
             <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
         </p>
+
+        <p>
+            <label for="in1">Número 1:</label>
+            <input type="number" name="n1" id="in1" min="0" max="50" required 
+            oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="in2">Número 2:</label>
+            <input type="number" name="n2" id="in2" min="0" max="50" required 
+            oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="isoma">Soma:</label>
+            <output name="soma" id="isoma">0</output>
+        </p>
+
         <P>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
