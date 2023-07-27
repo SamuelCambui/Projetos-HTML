@@ -13,6 +13,7 @@ body{
     height: 839px;
     width: 390px;
     background-color: red;
+    overflow-x:hidden;
 }
 .title{
     height: 93px;
