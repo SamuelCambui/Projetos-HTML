@@ -10,8 +10,10 @@ body{
     padding: 0;
 }
 .tela{
-    height: 830px;
-    width: 382px;
+    /* height: 830px; */
+    height: 52em;
+    /* width: 382px; */
+    width: 24em;
     background-color: greenyellow;
     /* overflow-x:hidden; */
 }
