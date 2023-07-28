@@ -63,12 +63,12 @@ body{
 .image{
     height: 93px;
     width: 112px;
-    background-color: blue;
+    /* background-colorgba(0, 0, 255, 0.048)lue; */
 }
 .option{
     height: 93px;
     width: 166px;
-    background-color: red;
+    /* background-color: red; */
     font-size: 36px;
     text-align: center;
     display: flex;
