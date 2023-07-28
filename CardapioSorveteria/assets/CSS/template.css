@@ -10,10 +10,10 @@ body{
     padding: 0;
 }
 .tela{
-    height: 839px;
+    height: 830px;
     width: 390px;
-    background-color: red;
-    overflow-x:hidden;
+    background-color: greenyellow;
+    /* overflow-x:hidden; */
 }
 .title{
     height: 93px;
@@ -54,7 +54,7 @@ body{
     flex-direction: row;  
 }
 .optionFinal{
-    height: 96px;
+    height: 93px;
     width: 390px;
     background: linear-gradient(to bottom, #F2CFCF, white);
     display: flex;
