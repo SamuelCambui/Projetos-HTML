@@ -10,16 +10,17 @@ body{
     padding: 0;
 }
 .tela{
-    /* height: 830px; */
-    height: 52em;
+    height: 830px;
+    /* height: 52em; */
+    width: 400px;
     /* width: 382px; */
-    width: 24em;
-    background-color: greenyellow;
+    /* width: 24em; */
+    /* background-color: greenyellow; */
     /* overflow-x:hidden; */
 }
 .title{
     height: 93px;
-    width: 390px;
+    width: 399px;
     background: linear-gradient(to bottom, white, #F2CFCF);
     display: flex;
     flex-direction: row;  
@@ -36,13 +37,12 @@ body{
     top:50%;
 
     transform: translate(-50%, -50%);
-    /* margin-left: 30px; */
-   
-
+    /* margin-left: 30px; */  
 }
+
 .optionOdd{
     height: 93px;
-    width: 390px;
+    width: 400px;
     background-color: #B26F6E;
     display: flex;
     flex-direction: row; 
@@ -50,14 +50,16 @@ body{
 } 
 .optionPair{
     height: 93px;
-    width: 390px;
+    /* width: 390px; */
+    width: 400px;
     background: linear-gradient(to bottom, white, #F2CFCF);
     display: flex;
     flex-direction: row;  
 }
 .optionFinal{
     height: 93px;
-    width: 390px;
+    /* width: 390px; */
+    width: 400px;
     background: linear-gradient(to bottom, #F2CFCF, white);
     display: flex;
     flex-direction: row;  
@@ -65,7 +67,18 @@ body{
 .image{
     height: 93px;
     width: 112px;
-    /* background-colorgba(0, 0, 255, 0.048)lue; */
+    background-color:blue;
+}
+#iconimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    background-color: #B26F6E;
+    border-radius: 10px;
 }
 .option{
     height: 93px;
