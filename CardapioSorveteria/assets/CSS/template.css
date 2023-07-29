@@ -20,7 +20,7 @@ body{
 }
 .title{
     height: 93px;
-    width: 399px;
+    width: 400px;
     background: linear-gradient(to bottom, white, #F2CFCF);
     display: flex;
     flex-direction: row;  
@@ -67,7 +67,7 @@ body{
 .image{
     height: 93px;
     width: 112px;
-    background-color:blue;
+    /* background-color:blue; */
 }
 #iconimage{
     display: flex;
