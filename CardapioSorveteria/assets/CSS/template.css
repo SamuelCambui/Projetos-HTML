@@ -79,6 +79,15 @@ body{
     width: 50px;
     background-color: #B26F6E;
     border-radius: 10px;
+    cursor: pointer;
+}
+.logoWhats{
+    height: 50px;
+    width: 50px;
+}
+.LogoInsta{
+    height: 50px;
+    width: 50px;
 }
 .option{
     height: 93px;
