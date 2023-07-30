@@ -20,7 +20,7 @@ body{
 }
 .title{
     height: 93px;
-    width: 400px;
+    width: 428px;
     background: linear-gradient(to bottom, white, #F2CFCF);
     display: flex;
     flex-direction: row;  
@@ -67,13 +67,20 @@ body{
 .image{
     height: 93px;
     width: 112px;
-    /* background-color:blue; */
+    background-color:blue;
 }
-#iconimage{
+#iconimage1{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+#iconimage2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
 .icon{
     height: 50px;
     width: 50px;
