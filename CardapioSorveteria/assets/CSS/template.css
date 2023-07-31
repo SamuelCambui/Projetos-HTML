@@ -1,88 +1,177 @@
-@font-face{
+@font-face {
     font-family: 'IceCream';
     src: url(../font/Average-Regular.ttf) format('ttf');
 }
-/* *{
-   font-family:;                                                        
-} */
-body{
+
+body {
     margin: 0;
     padding: 0;
 }
-.tela{
+
+footer {
+    padding: 40px 20px;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+main {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main div{
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.menu {
+    background: linear-gradient(to bottom, white, #F2CFCF);
+}
+
+.nav-item>.nav-link {
+    color: #553230;
+
+    font-weight: 600;
+    font-size: 16px;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    height: 70px;
+    line-height: 20px;
+
+    border-radius: 10px;
+    margin-left: 10px;
+
+    width: 90px;
+    /* Largura padrão para telas grandes de computador */
+
+    /* Media query para telas de celular */
+    @media (max-width: 767px) {
+        width: 100%;
+        /* Largura de 100% em telas de celular */
+    }
+}
+
+.menu .ativo {
+    background-color: #8C2730;
+    color: white;
+}
+
+.nav-item>.nav-link:hover {
+    background-color: #8C2730;
+    color: white;
+}
+
+.contatos>a,
+.contatos-footer>a {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.contatos i {
+    font-size: 30px;
+
+    /* Media query para telas de celular */
+    @media (max-width: 767px) {
+        margin: 20px;
+        font-size: 50px;
+    }
+
+}
+
+.contatos-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tela {
     height: 830px;
-    /* height: 52em; */
     width: 428px;
-    /* width: 382px; */
-    /* width: 24em; */
-    background-color: greenyellow; 
+    background-color: greenyellow;
     /* overflow-x:hidden; */
 }
-.title{
+
+.title {
     height: 93px;
     width: 428px;
     background: linear-gradient(to bottom, white, #F2CFCF);
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
     position: relative;
-                                                                                                                      
+
 }
-.logo{
+
+.logo {
     height: 129px;
     transform: scale(1.8);
     position: absolute;
 
-    
-    left:50%;
-    top:50%;
+
+    left: 50%;
+    top: 50%;
 
     transform: translate(-50%, -50%);
-    /* margin-left: 30px; */  
+    /* margin-left: 30px; */
 }
 
-.optionOdd{
+.optionOdd {
     height: 93px;
     width: 400px;
     background-color: #B26F6E;
     display: flex;
-    flex-direction: row; 
-    word-wrap: break-word; 
-} 
-.optionPair{
+    flex-direction: row;
+    word-wrap: break-word;
+}
+
+.optionPair {
     height: 93px;
     /* width: 390px; */
     width: 400px;
     background: linear-gradient(to bottom, white, #F2CFCF);
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
 }
-.optionFinal{
+
+.optionFinal {
     height: 93px;
     /* width: 390px; */
     width: 400px;
     background: linear-gradient(to bottom, #F2CFCF, white);
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
 }
-.image{
+
+.image {
     height: 93px;
     width: 112px;
-    background-color:blue;
+    background-color: blue;
 }
-#iconimage1{
+
+#iconimage1 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
 }
-#iconimage2{
+
+#iconimage2 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 10px;
 }
 
-.icon{
+.icon {
     height: 50px;
     width: 50px;
     background-color: #B26F6E;
@@ -90,15 +179,17 @@ body{
     cursor: pointer;
 }
 
-.logoWhats{
+.logoWhats {
     height: 50px;
     width: 50px;
 }
-.LogoInsta{
+
+.LogoInsta {
     height: 50px;
     width: 50px;
 }
-.option{
+
+.option {
     height: 93px;
     width: 166px;
     /* background-color: red; */
@@ -106,27 +197,27 @@ body{
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center; 
-    word-wrap: break-word; 
+    align-items: center;
+    word-wrap: break-word;
 }
-.option_title{
+
+.option_title {
     height: 93px;
     width: 470px;
     font-size: 36px;
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center; 
-    word-wrap: break-word; 
+    align-items: center;
+    word-wrap: break-word;
 
 }
 
-.p{
+.p {
     font-family: 'IceCream';
 }
 
-.option > p > span{
+.option>p>span {
     display: block;
     line-height: 0.4;
 }
-
