@@ -55,7 +55,7 @@ main div{
     /* Largura padrão para telas grandes de computador */
 
     /* Media query para telas de celular */
-    @media (max-width: 767px) {
+    @media(max-width: 767px) {
         width: 100%;
         /* Largura de 100% em telas de celular */
     }
@@ -93,6 +93,15 @@ main div{
     display: flex;
     justify-content: space-around;
 }
+.contatos{
+    margin-bottom: 14px;
+    margin-right: 10px;  
+}
+.linkWhats{
+    margin-right: 10px; 
+}
+
+
 
 .tela {
     height: 830px;
@@ -221,3 +230,4 @@ main div{
     display: block;
     line-height: 0.4;
 }
+
