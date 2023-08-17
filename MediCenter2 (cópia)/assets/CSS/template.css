@@ -287,6 +287,7 @@ footer .widget_title_text{
 @media(max-width:600px){
     .logo {
         width: 120%;
+        transform: scale(1.1);
     }
     nav .active a,
     nav a:hover{
