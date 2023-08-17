@@ -50,6 +50,9 @@ main div{
 
     border-radius: 10px;
     margin-left: 10px;
+    
+
+
 
     width: 90px;
     /* Largura padrão para telas grandes de computador */
@@ -60,6 +63,14 @@ main div{
         /* Largura de 100% em telas de celular */
     }
 }
+
+/* #unid{
+    @media(max-width: 1150px) {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: block;
+    }
+} */
 
 .menu .ativo {
     background-color: #8C2730;
