@@ -300,6 +300,7 @@ footer .widget_title_text{
     nav a:hover{
         text-align: center;
         height: 45px;
+        font-weight: bold;
         
     }
    
