@@ -334,6 +334,8 @@ footer .widget_title_text{
     #tacas{
         font-size: 17px;
         margin-top: 20px;
+        padding-bottom: 20px;
+       
     }
     #acai{
         font-size: 17px;
@@ -448,7 +450,7 @@ footer .widget_title_text{
         padding: 7px;
         width: 47px;
         height: 32px;
-        position: fixed;
+        
         /* cursor: pointer; */
     }
 
