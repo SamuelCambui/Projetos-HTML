@@ -281,6 +281,9 @@ footer .widget_title_text{
         font-size:11px;
         padding: 7px;
     }
+    nav > ul{
+        padding-right:20px;
+    }
    
 } 
 
