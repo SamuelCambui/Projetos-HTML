@@ -303,6 +303,15 @@ footer .widget_title_text{
         font-weight: bold;
         
     }
+
+    nav > ul > li > a{
+        display: flex;
+        white-space: pre-line;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
    
     #tortas{
         font-size: 13px;
@@ -329,26 +338,32 @@ footer .widget_title_text{
         font-size: 13px; 
     }
     #shake{
-        font-size: 13px;  
+        font-size: 13px;
+        padding-left: 5px;
     }
     #bombons{
         font-size: 13px; 
     }
     #sorvete{
         font-size: 13px; 
+        padding-left: 2px;
     }
     #laranjinha{
         font-size: 13px; 
+        padding-left: 5px;
     }
     #potes{
         font-size: 13px; 
+        padding-right: 10px;
     }
     #caixas{
         font-size: 13px;
+        padding-left: 4px;
     }
     #de1{
         margin-left: -15px;
         font-size: 13px;
+
     }
     #de2{
         margin-left: -15px;
@@ -357,6 +372,8 @@ footer .widget_title_text{
     #e1{
         margin-left: -40px;
         font-size: 13px;
+        padding-left: 50px;
+        padding-right: -200px;
     }
     #e2{
         margin-left: -20px;
