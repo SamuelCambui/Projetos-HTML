@@ -448,6 +448,7 @@ footer .widget_title_text{
         padding: 7px;
         width: 47px;
         height: 32px;
+        position: fixed;
         /* cursor: pointer; */
     }
 
