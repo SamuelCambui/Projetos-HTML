@@ -315,6 +315,7 @@ footer .widget_title_text{
    
     #tortas{
         font-size: 13px;
+        padding-right: 8px;
     }
     #sorvete{
         font-size: 13px;
@@ -327,7 +328,7 @@ footer .widget_title_text{
         margin-left: -24px;
         font-size: 13px;
         text-indent: 40px;
-        padding-right: 10px;
+        padding-right: 18px;
 
     }
     #tacas{
@@ -346,6 +347,7 @@ footer .widget_title_text{
     }
     #bombons{
         font-size: 13px; 
+        padding-right: 8px;
     }
     #sorvete{
         font-size: 13px; 
@@ -357,7 +359,7 @@ footer .widget_title_text{
     }
     #potes{
         font-size: 13px; 
-        padding-right: 10px;
+        padding-right: 18px;
     }
     #caixas{
         font-size: 13px;
@@ -366,20 +368,25 @@ footer .widget_title_text{
     #de1{
         margin-left: -15px;
         font-size: 13px;
+        padding-right: 8px;
 
     }
     #de2{
         margin-left: -15px;
         font-size: 13px;
+        padding-right: 8px;
+
     }
     #e1{
         margin-left: -40px;
         font-size: 13px;
+        padding-right: 8px;
         
     }
     #e2{
         margin-left: -20px;
         font-size: 13px;
+        padding-right: 8px;
     }
 
     .banner_headline{
