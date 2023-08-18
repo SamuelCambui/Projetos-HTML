@@ -299,18 +299,67 @@ footer .widget_title_text{
     nav .active a,
     nav a:hover{
         text-align: center;
+        height: 45px;
+        
+    }
+   
+    #tortas{
+        font-size: 13px;
+    }
+    #sorvete{
+        font-size: 13px;
+    }
+    #milk{
+        margin-left: -10px;
+        font-size: 13px;
+    }
+    #picole{
+        margin-left: -24px;
+        font-size: 13px;
+    }
+    #tacas{
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    #acai{
+        font-size: 13px;
+    }
+    #novidades{
+        font-size: 13px; 
+    }
+    #shake{
+        font-size: 13px;  
+    }
+    #bombons{
+        font-size: 13px; 
+    }
+    #sorvete{
+        font-size: 13px; 
+    }
+    #laranjinha{
+        font-size: 13px; 
+    }
+    #potes{
+        font-size: 13px; 
+    }
+    #caixas{
+        font-size: 13px;
     }
     #de1{
-        margin-left: -20px;
+        margin-left: -15px;
+        font-size: 13px;
     }
     #de2{
-        margin-left: -25px;
+        margin-left: -15px;
+        font-size: 13px;
     }
     #e1{
-        margin-left: -50px;
+        margin-left: -40px;
+        font-size: 13px;
     }
     #e2{
         margin-left: -20px;
+        font-size: 13px;
     }
 
     .banner_headline{
