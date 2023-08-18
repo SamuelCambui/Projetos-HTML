@@ -273,7 +273,7 @@ footer .widget_title_text{
 
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 884px) {
     .logo {
         width: 47%;
     }
@@ -282,7 +282,7 @@ footer .widget_title_text{
         padding: 7px;
     }
    
-} */
+} 
 
 @media(max-width:768px){
     .logo {
