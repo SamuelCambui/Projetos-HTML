@@ -80,7 +80,7 @@ nav a:hover{
     max-width: 350px;
 }
 .banner_headline h2{
-    color: black;
+    color: red;
     font-size: 21px;
     text-shadow: 0px 1px 0px #555555;
     margin: 0px;
@@ -471,7 +471,7 @@ footer .widget_title_text{
         justify-content: space-around;
         align-items: center;
         padding: 7px;
-        width: 47px;
+        width: 40px;
         height: 32px;
         
         /* cursor: pointer; */
