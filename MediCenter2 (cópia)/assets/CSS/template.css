@@ -280,11 +280,7 @@ footer .widget_title_text{
     
 
 }
-@media (max-width: 883px) {
-    .logo > a  {
-        width: 47%;
-    }
-} 
+
 @media (max-width: 884px) {
     .logo > a  {
         width: 47%;
@@ -305,6 +301,7 @@ footer .widget_title_text{
     .logo {
         width: 120%;
         transform: scale(1.1);
+        text-indent: -50px;
     }
     nav .active a,
     nav a:hover{
