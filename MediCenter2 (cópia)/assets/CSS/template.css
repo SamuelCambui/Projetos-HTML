@@ -297,7 +297,7 @@ footer .widget_title_text{
 } 
 @media(max-width:767px){
     .logo > a  {
-        text-indent: 0px;
+        text-indent: 0;
     }
 }
 
