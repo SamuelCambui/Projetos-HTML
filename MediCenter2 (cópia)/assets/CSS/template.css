@@ -298,9 +298,13 @@ footer .widget_title_text{
 } 
 
 @media(max-width:768px){
+
     .logo {
         width: 120%;
         transform: scale(1.1);
+        text-indent: -50px;
+    }
+    .logo > a  {
         text-indent: -50px;
     }
     nav .active a,
