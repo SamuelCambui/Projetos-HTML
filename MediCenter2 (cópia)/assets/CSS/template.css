@@ -282,9 +282,10 @@ footer .widget_title_text{
 }
 
 @media (max-width: 884px) {
-    .logo {
+    .logo > a > img {
         width: 47%;
         margin-left: 50px;
+        
     }
     .menu > nav > ul > li > a{
         font-size:11px;
