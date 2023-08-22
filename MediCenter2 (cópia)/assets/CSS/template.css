@@ -207,7 +207,7 @@ article .news_resume{
 }
 
 footer{
-    background-color: #1E1E1E;
+    background-color: rgba(145, 215, 242, 0.534);
     display: flex;
     justify-content: center;
 }
@@ -237,8 +237,16 @@ footer{
 .footer_area{
     display: flex;
 }
+#logoredonda{
+    height: 210px;
+    width: 210px;
+    padding-top: 50px;
+    margin-left: -100px;
+}
 .footer_areaitem{
     flex: 1;
+    justify-content: center;
+    text-align: center;
     color: white;
 }
 .flexColumn{
@@ -249,10 +257,10 @@ footer .widget_title_text{
     color: white;
 }
 .footer_copy{
-    border-top: 1px solid #2C2C2C;
+    border-top: 1px solid white;
     height: 40px;
     line-height: 30px;
-    color: #5c5c5c;
+    color:white;
     font-size: 12px;
     margin-top: 90px;
 }
@@ -276,6 +284,7 @@ footer .widget_title_text{
 @media (max-width: 884px) {
     .logo {
         width: 47%;
+        margin-left: 20px;
     }
     .menu > nav > ul > li > a{
         font-size:11px;
