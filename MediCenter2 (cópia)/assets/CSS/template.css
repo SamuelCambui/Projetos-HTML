@@ -284,7 +284,7 @@ footer .widget_title_text{
 @media (max-width: 884px) {
     .logo > a  {
         width: 47%;
-        text-indent: 50px;
+        /* text-indent: 50px; */
         
     }
     .menu > nav > ul > li > a{
