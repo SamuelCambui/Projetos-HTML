@@ -308,7 +308,7 @@ footer .widget_title_text{
         transform: scale(1.1);
     }
     .logo > a  {
-        text-indent: 50px;
+        text-indent: 30px;
     }
     nav .active a,
     nav a:hover{
