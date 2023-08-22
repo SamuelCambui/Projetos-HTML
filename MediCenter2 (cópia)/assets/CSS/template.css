@@ -280,11 +280,15 @@ footer .widget_title_text{
     
 
 }
-
-@media (max-width: 884px) {
-    .logo > a > img {
+@media (max-width: 883px) {
+    .logo > a  {
         width: 47%;
-        margin-left: 50px;
+    }
+} 
+@media (max-width: 884px) {
+    .logo > a  {
+        width: 47%;
+        text-indent: 50px;
         
     }
     .menu > nav > ul > li > a{
