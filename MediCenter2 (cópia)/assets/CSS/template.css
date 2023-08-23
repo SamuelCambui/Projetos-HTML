@@ -80,7 +80,7 @@ nav a:hover{
     max-width: 350px;
 }
 .banner_headline h2{
-    color: black;
+    color: red;
     font-size: 21px;
     text-shadow: 0px 1px 0px #555555;
     margin: 0px;
@@ -142,8 +142,8 @@ nav a:hover{
 }
 
 .widget_title{
-    margin-bottom: 14px;
-    margin-top: -20px;
+    margin-bottom: 8px;
+    margin-top: -5px;
     text-decoration: none;
 }
 .widget_title_text{
@@ -203,7 +203,8 @@ article .news_resume{
 }
 
 footer{
-    background-color: rgba(145, 215, 242, 0.534);
+    /* background-color: rgba(145, 215, 242, 0.534); */
+    background-color: rgba(145, 218, 242, 0.705);
     display: flex;
     justify-content: center;
 }
@@ -233,8 +234,8 @@ footer{
 .footer_area{
     display: flex;
     align-items: center;
-    background-color: #2b4c99;
-    height: 250px;
+    /* background-color: #2b4c99; */
+    height: 200px;
 }
 #logoredonda{
     height: 210px;
@@ -254,16 +255,17 @@ footer{
 }
 
 footer .widget_title_text{
-    color: white;
+    /* color: rgb(158, 42, 52); */
+    color: #8C2730;
 }
-.footer_areaitem{
-    
+
+#redessociais{
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    margin-top: 10px;
 }
-.footer_areaitem > .widget_title > a > i{
-    margin-top: 25px;
-    transform: scale(3);
-    /* background-color: red; */
-}
+
 .footer_copy{
     border-top: 1px solid white;
     height: 40px;
