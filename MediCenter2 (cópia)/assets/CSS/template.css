@@ -80,7 +80,7 @@ nav a:hover{
     max-width: 350px;
 }
 .banner_headline h2{
-    color: blue;
+    color: red;
     font-size: 21px;
     text-shadow: 0px 1px 0px #555555;
     margin: 0px;
@@ -142,20 +142,16 @@ nav a:hover{
 }
 
 .widget_title{
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
+    margin-top: -20px;
+    text-decoration: none;
 }
 .widget_title_text{
     color: black;
     font-size: 21px;
     font-weight: bold;
 }
-.widget_title_bar{
-    width: 50px;
-    height: 2px;
-    background-color: #36a9e1;
-    margin-top: 10px;
-}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -236,17 +232,21 @@ footer{
 }
 .footer_area{
     display: flex;
+    align-items: center;
+    background-color: #2b4c99;
+    height: 250px;
 }
 #logoredonda{
     height: 210px;
     width: 210px;
-    padding-top: 50px;
-    margin-left: -100px;
+    /* background-color: red; */
+    margin-left: -156px;
 }
 .footer_areaitem{
     flex: 1;
     justify-content: center;
     text-align: center;
+    height: 180px;
     color: white;
 }
 .flexColumn{
@@ -255,6 +255,11 @@ footer{
 
 footer .widget_title_text{
     color: white;
+}
+.footer_areaitem > .widget_title > a{
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
 }
 .footer_copy{
     border-top: 1px solid white;
@@ -444,6 +449,7 @@ footer .widget_title_text{
     #geral aside{
         padding: 20px;
     }
+    
     .footer_menu{
         flex-direction: column;
     }
