@@ -333,7 +333,7 @@ footer .widget_title_text{
     }
    
 } 
-@media(max-width:767px){
+@media(max-width:768px){
     
     body{
         overflow-x: hidden; 
