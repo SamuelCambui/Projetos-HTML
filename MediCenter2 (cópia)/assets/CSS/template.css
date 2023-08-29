@@ -244,7 +244,7 @@ footer{
     height: 210px;
     width: 210px;
     /* background-color: red; */
-    margin-left: -156px;
+    margin-left: -75px;
 }
 .footer_areaitem{
     flex: 1;
@@ -296,7 +296,7 @@ footer .widget_title_text{
 
 }
 
-@media (max-width: 884px) {
+ @media (max-width: 884px) {  /* //tablet// */
     .logo > a  {
         width: 47%;
         
@@ -310,10 +310,11 @@ footer .widget_title_text{
     }
     #logoredonda{
         transform: scale(0.96);
-        margin-left: 1px;
+        margin-left: 10px;
         margin-right: 9px;
 
     }
+
     .widget_title_text{
         font-size: 18px;
     }
