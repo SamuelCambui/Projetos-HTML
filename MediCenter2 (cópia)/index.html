@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no"/> 
+    <meta name="viewport" content="width=device-width,user-scalable=0"/> 
     <title>Sorveteria Ouro Branco</title>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" type="text/css" href="assets/CSS/template.css" />
@@ -22,19 +22,10 @@
             });
         };
 
-        function lockScreenOrientation(){
-            if(screen.orientation && screen.orientation.lock){
-                screen.orientation.lock('portrait');
-            }
-        }
-        
     
     </script>
 </head>
 <body>
-  <script>
-      window.addEventListener('DOMContentLoaded',lockScreenOrientation);
-  </script>
   <header>
       <div class="container">
           <div class="logo">
@@ -222,7 +213,7 @@
          
                 </div>
                 <div class="footer_areaitem">
-                    <div class="widget_title">
+                    <div class="widget_title" id="contatos">
                         <div class="widget_title_text">Nossas Redes Sociais</div>
                         <div id="redessociais">
                             <a  href="https://api.whatsapp.com/send?phone=5534998070916&text=Oii%21+Meu+nome+%C3%A9&fbclid=PAAaZmfpoke4pHk_nvnnNJ4hzzb3UpnVPlgE3I0GX0FupOTyefUHyJF5Mxxl4"target="_blank" class="linkWhats">
