@@ -51,82 +51,72 @@ nav a:hover{
     color: white;
     border-radius: 10px;
 }
-
-#banner{
-    display: flex;
-    justify-content: center;
-    background-image: url(../Image/img1.jpg);
-    background-position: center;
-    background-size:cover ;
-    height: 670px;   
+#produtos{
+    margin-top: 40px;
+    margin-bottom: 45px;
 }
+.content{
+    width: 270px;
+    margin: 15px;
+    box-sizing:border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgb(0,0,0.25),
+    0 10px 10px rgb(0,0,0.22);
+    transition: .4s;
+    background: #f2f2f2;
+}
+.content:hover{
+    box-shadow: 0 3px 6px rgb(0,0,0.16),
+    0 3px 6px rgb(0,0,0.23);
+    transform: translate(0px, -8px);
+}
+.produto{
+    width: 200px;
+    height: 180px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+#tortamedia{
+    width: 210px;
+    height: 180px;
+    transform: scale(1.2);
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    
+}
+p{
+    text-align: center;
+    color: #b2bec3;
+    padding-top: 0 8px;
+    /* background-color: red; */
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+
+}
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+    margin-bottom: 10px;
+    /* background-color: red; */
+}
+
+}
+
 
 .column{
     flex-direction: column;
-}
-.banner_headline{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   
-}
-.banner_headline h1{
-    color: white;
-    font-size: 70px;
-    text-shadow: 0px 1px 0px #555555;
-    margin: 0px;
-    padding: 0px;
-    max-width: 350px;
-}
-.banner_headline h2{
-    color: blueviolet;
-    font-size: 21px;
-    text-shadow: 0px 1px 0px #555555;
-    margin: 0px;
-    padding: 0px;
-    max-width: 350px;
-    margin-top: 30px;
-}
-.banner_options{
-    height: 210px;
-    display: flex;
-   
-}
-
-.banner1,
-.banner2,
-.banner3{
-    padding: 20px;
-    flex:1;
-    color: white;
-}
-
-.banner1{
-    background-color:#39aae1;
-}
-.banner2{
-    background-color:#0079c7;
-}
-.banner3{
-    background-color:#2b4c99;
-}
-.banner_title{
-    font-size: 21px;
-}
-.banner_desc{
-    font-size: 12px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.banner_options a{
-    display: inline-block;
-    border: 1px solid white;
-    padding: 5px;
-    color: white;
-    font-size: 13px;
-    text-decoration: none;
-
 }
 
 #geral{
@@ -158,51 +148,7 @@ nav a:hover{
     display: flex;
     flex-wrap: wrap;
 }
-article{
-    flex: 1;
-    min-width: 300px;
-    margin-right: 20px
-    
-}
-article a {
-    text-decoration: none;
-}
-article .news_data{
-    display: flex;
-}
 
-article .news_posted_at{
-    background-color: #2b4c99;
-    color: white;
-    font-size: 12px;
-    padding: 10px;
-    margin-right: 2px;
-}
-article .news_coments{
-    background-color: #39aae1;
-    color: white;
-    font-size: 12px;
-    padding: 10px;
-}
-article .news_thumbnail{
-    margin-top: 30px;
-}
-article .news_thumbnail img{
-    width: 100%;
-    height: auto;
-}
-article .news_title{
-    margin-top: 25px;
-    margin-bottom:25px;
-    color: black;
-    font-size: 23px;
-}
-article .news_resume{
-    color: #5C5C5C;
-    font-size: 14px;
-    line-height:20px ;
-    margin-bottom: 30px;
-}
 
 footer{
     /* background-color: rgba(145, 215, 242, 0.534); */
@@ -331,7 +277,10 @@ footer .widget_title_text{
     .footer_copy{
         text-indent: 10px;
     }
-   
+    
+    .content{
+        width: 100%;
+    }
 } 
 @media(max-width:767px){
     
@@ -487,19 +436,8 @@ footer .widget_title_text{
         padding-right: 8px;
     }
 
-    .banner_headline{
-        padding: 20px;
-    }
-    .banner_headline h1{
-        font-size: 55px;
-    }
-    .banner_headline h2{
-        font-size: 17px;
-    }
-    .banner_options{
-        height: auto;
-        flex-direction: column;
-    }
+    
+    
     .container{
         flex-direction: column;
     }
