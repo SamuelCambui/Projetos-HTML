@@ -57,6 +57,7 @@ nav a:hover{
 }
 .content{
     width: 270px;
+    height: 500px;
     margin: 15px;
     box-sizing:border-box;
     float: left;
@@ -279,7 +280,12 @@ footer .widget_title_text{
     }
     
     .content{
-        width: 100%;
+        width: 76%;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 } 
 @media(max-width:767px){
