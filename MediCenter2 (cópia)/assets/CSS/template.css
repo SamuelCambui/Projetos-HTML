@@ -62,7 +62,7 @@ nav a:hover{
 }
 .content{
     width: 300px;
-    height: 620px;
+    height: 630px;
     margin: 15px;
     box-sizing:border-box;
     float: left;
@@ -116,10 +116,9 @@ h3{
     margin-left: 25px;
     padding-bottom: -40px;
     margin-right: 25px;
-
 }
 h6{
-    padding-top: 30px;
+    padding-top: 50px;
     font-size: 26px;
     text-align: center;
     color: #222f3e;
@@ -296,6 +295,7 @@ footer .widget_title_text{
     
     .content{
         width: 57%;
+        height: 725px;
     }
     .container{
         display: flex;
@@ -340,6 +340,7 @@ footer .widget_title_text{
 
     .content{
         width: 50%;
+        height: 540px;
     }
 
     
@@ -541,9 +542,115 @@ footer .widget_title_text{
         padding-bottom: 0px;
         font-size: 11px;
     }
+    .content{
+        height: 540px;
+    }
+    p{
+        margin-bottom: -20px;
+    }
+    
 }
+
+@media (max-width: 725px) {
+    p{
+        margin-bottom: -28px;
+    }
+}
+
+@media (max-width: 699px) {
+    .content{
+        height: 555px;
+    }
+    p{
+        margin-bottom: -32px;
+    }
+}
+
+@media (max-width: 630px) {
+    .content{
+        height: 560px;
+    }
+    p{
+        margin-bottom: -34px;
+    }
+}
+@media (max-width: 590px) {
+    .content{
+        height: 586px;
+    }
+    p{
+        margin-bottom: -33px;
+    }
+}
+@media (max-width: 570px) {
+    .content{
+        height: 603px;
+    }
+    p{
+        margin-bottom: -33px;
+    }
+}
+@media (max-width: 570px) {
+    .content{
+        height: 653px;
+    }
+    p{
+        margin-bottom: -33px;
+    }
+}
+
+
 @media(max-width:510px){
     .content{
-        width: 88%;
+        width: 80%;
+        height: 600px;
+    }
+    p{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:440px){
+    p{
+        margin-bottom: -20px;
+    }
+}
+@media(max-width:370px){
+    p{
+        margin-bottom: -30px;
+    }
+    .content{
+        height: 620px;
+    }
+}
+@media(max-width:350px){
+    p{
+        margin-bottom: -30px;
+    }
+    .content{
+        height: 630px;
+    }
+}
+@media(max-width:350px){
+    p{
+        margin-bottom: -30px;
+    }
+    .content{
+        height: 630px;
+    }
+}
+@media(max-width:340px){
+    p{
+        margin-bottom: -30px;
+    }
+    .content{
+        height: 670px;
+    }
+}
+@media(max-width:330px){
+    p{
+        margin-bottom: -34px;
+    }
+    .content{
+        height: 680px;
     }
 }
