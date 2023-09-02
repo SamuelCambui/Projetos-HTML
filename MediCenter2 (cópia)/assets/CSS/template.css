@@ -9,13 +9,18 @@ header{
     display: flex;
     justify-content: center;
     height: 120px;
+    width: 100%;
     background: linear-gradient(to bottom, white, #F2CFCF);
-    
+    z-index: 1000;
+    position: fixed;
 }
+
 .container{
     display: flex;
     justify-content: space-between;
     width: 1100px;
+    
+
 }
 .logo{
     display: flex;
@@ -52,7 +57,7 @@ nav a:hover{
     border-radius: 10px;
 }
 #produtos{
-    margin-top: 40px;
+    margin-top: 155px;
     margin-bottom: 45px;
 }
 .content{
