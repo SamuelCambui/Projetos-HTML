@@ -228,7 +228,7 @@ footer .widget_title_text{
     color:white;
     font-size: 12px;
     margin-top: 90px;
-    text-indent: 5px;
+    text-indent: 3px;
 }
 .menuMobile{
     
@@ -285,7 +285,7 @@ footer .widget_title_text{
     }
     
     .content{
-        width: 76%;
+        width: 70%;
     }
     .container{
         display: flex;
@@ -326,6 +326,10 @@ footer .widget_title_text{
         margin-bottom: 0px;
         padding-bottom: 0px;
         font-size: 11px;
+    }
+
+    .content{
+        width: 50%;
     }
 
     
@@ -527,5 +531,9 @@ footer .widget_title_text{
         padding-bottom: 0px;
         font-size: 11px;
     }
-    
+}
+@media(max-width:510px){
+    .content{
+        width: 70%;
+    }
 }
