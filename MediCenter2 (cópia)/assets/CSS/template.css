@@ -61,8 +61,8 @@ nav a:hover{
     margin-bottom: 45px;
 }
 .content{
-    width: 270px;
-    height: 500px;
+    width: 300px;
+    height: 620px;
     margin: 15px;
     box-sizing:border-box;
     float: left;
@@ -99,17 +99,27 @@ nav a:hover{
 p{
     text-align: center;
     color: #b2bec3;
-    padding-top: 0 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.808);
     /* background-color: red; */
 }
 h3{
     text-align: center;
-    font-size: 30px;
+    font-size: 27px;
     margin: 0;
     padding-top: 10px;
+    margin-left: 25px;
+    padding-bottom: -40px;
+    margin-right: 25px;
 
 }
 h6{
+    padding-top: 30px;
     font-size: 26px;
     text-align: center;
     color: #222f3e;
