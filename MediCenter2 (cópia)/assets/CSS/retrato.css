@@ -634,4 +634,10 @@ footer .widget_title_text{
         height: 680px;
     }
 }
+@media(max-width:928px) and (max-height:428px) {
+    .footer_copy{
+        color: red;
+    }
+}
+
 
