@@ -653,3 +653,9 @@ footer .widget_title_text{
         height: 680px;
     }
 }
+
+@media screen and (orientation:landscape) {
+    .footer_copy{
+        color:red;
+    }
+}
