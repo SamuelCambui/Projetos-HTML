@@ -248,7 +248,9 @@ body{
     transform: scale(1.1);
 }
 .logo > a  {
-    text-indent: 30px;
+    text-indent: 0;
+    /* margin-right: 60px; */
+    margin-left: -50px;
 }
 nav .active a,
 nav a:hover{
@@ -366,8 +368,11 @@ nav > ul > li > a{
     flex-direction: column;
 }
 .footer_area{
-    flex-direction: column;
-    padding: 20px;
+    /* background-color: red; */
+    height:600px;
+}
+.footer_areaitem{
+    margin-bottom: 20px;
 }
 .footer_copy{
     padding-left: 20px;
@@ -433,6 +438,7 @@ header{
     font-size: 11px;
 }
 .content{
+    width: 50%;
     height: 540px;
 }
 p{
