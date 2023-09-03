@@ -239,49 +239,44 @@ footer .widget_title_text{
 
 }
 
-    .logo > a  {
-        width: 47%;
-        
-    }
-    .menu > nav > ul > li > a{
-        font-size:11px;
-        padding: 7px;
-    }
-    nav > ul{
-        padding-right:20px;
-    }
-    #logoredonda{
-        transform: scale(0.96);
-        margin-left: 10px;
-        margin-right: 9px;
+body{
+    overflow-x: hidden; 
+}
+.logo > a  {
+    text-indent: 0;
+    /* margin-right: 60px; */
+    margin-left: -50px;
+}
 
-    }
+.footer_area{
+    /* background-color: red; */
+    height:600px;
+}
+.footer_areaitem{
+    margin-bottom: 20px;
+}
+.widget_title{
+    margin-top: 55px;
+}
+#redessociais > a{
+    margin-top: -5px;
+}
+#contatos{
+    margin-top: 132px;
+}
+.footer_copy{
+    /* background-color: blue; */
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 11px;
+}
 
-    .widget_title_text{
-        font-size: 18px;
-    }
-    .footer_areaitem > iframe{
-        width: 90%;
-    }
-    .linkWhats{
-        font-size: 85%;
-    }
-    .iconwhats{
-        font-size: 85%;
-    }
-    .footer_copy{
-        text-indent: 10px;
-    }
-    
-    .content{
-        width: 57%;
-        height: 725px;
-    }
-    .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+.content{
+    width: 50%;
+    height: 540px;
+}
+
  
 
 
