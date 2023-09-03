@@ -811,14 +811,14 @@ hr{
     .menu > nav > ul > li > a{
         font-size:11px;
         padding: 0px;
-        margin-top: -20px;
-        margin-bottom: 20px;
+        margin-top: -40px;
+        margin-bottom: 40px;
     }
 
     header{
         display: flex;
         justify-content: center;
-        height: 100px;
+        height: 80px;
         width: 100%;
         background: linear-gradient(to bottom, white, #F2CFCF);
         z-index: 1000;
