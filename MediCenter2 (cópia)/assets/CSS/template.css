@@ -303,8 +303,16 @@ footer .widget_title_text{
         align-items: center;
     }
 } 
-@media(max-width:767px){
-    
+@media(max-width:767px) and (orientation: landscape){
+    html {
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
     body{
         overflow-x: hidden; 
     }
@@ -546,7 +554,7 @@ footer .widget_title_text{
         height: 540px;
     }
     p{
-        margin-bottom: -20px;
+        margin-bottom: -10px;
     }
     
 }
