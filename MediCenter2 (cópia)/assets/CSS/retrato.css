@@ -808,6 +808,22 @@ hr{
         
         /* cursor: pointer; */
     }
+    .menu > nav > ul > li > a{
+        font-size:11px;
+        padding: 0px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    header{
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        width: 100%;
+        background: linear-gradient(to bottom, white, #F2CFCF);
+        z-index: 1000;
+        position: fixed;
+    }
 
     .menuMobile:focus{
         border: 4px solid rgb(85, 82, 82);
