@@ -809,10 +809,7 @@ hr{
         /* cursor: pointer; */
     }
     .menu > nav > ul > li > a{
-        font-size:11px;
-        padding: 0px;
-        margin-top: -40px;
-        margin-bottom: 40px;
+        overflow-y: auto;
     }
 
     header{
