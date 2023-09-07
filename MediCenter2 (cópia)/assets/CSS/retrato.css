@@ -791,6 +791,8 @@ hr{
     }
     header{
         height: auto;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
     .logo{
         padding-left: 20px;
