@@ -805,6 +805,7 @@ hr{
         padding: 7px;
         width: 47px;
         height: 32px;
+        overflow-y: auto;
         
         /* cursor: pointer; */
     }
@@ -830,7 +831,7 @@ hr{
         padding: 0px;
         margin-top: -25px;
         margin-bottom: 35px;
-        overflow-y: auto;
+        
     }
 
     header{
