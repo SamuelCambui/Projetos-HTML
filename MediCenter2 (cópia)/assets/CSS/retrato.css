@@ -816,7 +816,7 @@ hr{
         
         /* cursor: pointer; */
     }
-    .menu nav ul{
+    .menu > nav > ul{
         max-height: 480px; /* Ajuste a altura máxima conforme necessário */
         overflow-y: scroll;
     }
