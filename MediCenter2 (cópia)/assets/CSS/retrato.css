@@ -675,7 +675,9 @@ hr{
         justify-content: center;
         align-items: center;
         text-align: center;
-
+    }
+    nav > ul{
+        overflow-y: auto;
     }
    
     #tortas{
@@ -835,8 +837,6 @@ hr{
         background: linear-gradient(to bottom, white, #F2CFCF);
         z-index: 1000;
         position: fixed;
-        overflow-y: auto;
-        overflow-x: hidden;
     }
 
     .menuMobile:focus{
