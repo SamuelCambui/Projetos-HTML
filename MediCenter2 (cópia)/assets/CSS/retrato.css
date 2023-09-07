@@ -791,12 +791,10 @@ hr{
     }
     header{
         height: auto;
+        overflow-y: auto;
     }
     .logo{
         padding-left: 20px;
-    }
-    .menu{
-        overflow-y: auto;
     }
     .menuMobile{
         border: 1px solid rgb(65, 63, 63);
