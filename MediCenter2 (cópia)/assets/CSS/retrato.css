@@ -818,6 +818,7 @@ hr{
     }
     .menu nav ul{
         overflow-y: auto;
+        height: 500px;
         padding-top:20px;
     }
     
