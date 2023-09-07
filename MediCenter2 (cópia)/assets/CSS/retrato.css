@@ -806,6 +806,11 @@ hr{
         
         /* cursor: pointer; */
     }
+    .menu nav ul{
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    
     .menuMobile::before{
         content: "";
         position: absolute;
