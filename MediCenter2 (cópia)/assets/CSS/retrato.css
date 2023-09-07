@@ -817,9 +817,8 @@ hr{
         /* cursor: pointer; */
     }
     .menu nav ul{
-        overflow-y: auto;
-        height: 250px;
-        padding-top:20px;
+        max-height: 480px; /* Ajuste a altura máxima conforme necessário */
+        overflow-y: scroll;
     }
     
     .menu > nav > ul > li > a{
