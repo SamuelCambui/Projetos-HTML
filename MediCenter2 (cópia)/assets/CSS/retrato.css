@@ -676,11 +676,7 @@ hr{
         align-items: center;
         text-align: center;
     }
-    .menu nav ul{
-        overflow-y: auto;
-        height: 100%;
-    }
-   
+
     #tortas{
         font-size: 17px;
         padding-right: 8px;
@@ -809,7 +805,6 @@ hr{
         
         /* cursor: pointer; */
     }
-    
 
     .menuMobile::before{
         content: "";
@@ -821,7 +816,11 @@ hr{
         
         /* cursor: pointer; */
     }
-   
+    .menu nav ul{
+        overflow-y: auto;
+        height: 100vh;
+        padding-top:20px;
+    }
     
     .menu > nav > ul > li > a{
         font-size:11px;
