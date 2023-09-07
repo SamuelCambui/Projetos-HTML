@@ -786,7 +786,6 @@ hr{
         left: 0;
         width: 100%;
         background-color: white;
-        margin-top: -20px;
 
     }
     .logo{
@@ -819,6 +818,7 @@ hr{
     }
     .menu nav ul{
         overflow-y: auto;
+        height: 100%;
         padding-top:20px;
     }
     
@@ -837,6 +837,7 @@ hr{
         background: linear-gradient(to bottom, white, #F2CFCF);
         z-index: 1000;
         position: fixed;
+
     }
 
     .menuMobile:focus{
