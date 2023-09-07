@@ -786,6 +786,7 @@ hr{
         left: 0;
         width: 100%;
         background-color: white;
+        margin-top: -20px;
 
     }
     .logo{
@@ -818,7 +819,6 @@ hr{
     }
     .menu nav ul{
         overflow-y: auto;
-        height: 100vh;
         padding-top:20px;
     }
     
