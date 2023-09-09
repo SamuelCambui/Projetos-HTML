@@ -650,7 +650,7 @@ hr{
 
     nav ul {
         overflow-y: auto; /* Adicione esta linha para habilitar a rolagem vertical */
-        max-height: 270%; /* Defina a altura máxima para a lista, ajuste conforme necessário */
+        max-height: 400px; /* Defina a altura máxima para a lista, ajuste conforme necessário */
     }
 
     .logo {
