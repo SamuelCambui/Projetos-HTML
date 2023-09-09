@@ -647,9 +647,14 @@ hr{
     body{
         overflow-x: hidden; 
     }
-    nav ul, nav li, nav a{
+    nav li, nav a{
         padding: 0;
         margin: 0;
+    }
+    nav ul{
+        padding: -20px;
+        margin-top: -20px;
+        top: 0;
     }
     nav a{
         line-height: 0.5;
