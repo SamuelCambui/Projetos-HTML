@@ -647,6 +647,10 @@ hr{
     body{
         overflow-x: hidden; 
     }
+    .logo {
+        width: 80%;
+        transform: scale(0.9);
+    }
     
 }
 
