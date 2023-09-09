@@ -655,7 +655,7 @@ hr{
     }
     nav ul li:first-child {
         margin-top: -10px; /* Valor negativo igual ao padding-top do nav ul */
-        padding-top: -10px;
+        padding-top: -160px;
     }
 
     .logo {
