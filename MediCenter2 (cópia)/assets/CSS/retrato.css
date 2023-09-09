@@ -654,7 +654,7 @@ hr{
         height: 250px; /* Defina a altura máxima para a lista, ajuste conforme necessário */
     }
     nav ul li:first-child {
-        margin-top: -10px; /* Valor negativo igual ao padding-top do nav ul */
+        margin-top: -5px; /* Valor negativo igual ao padding-top do nav ul */
     }
 
     .logo {
