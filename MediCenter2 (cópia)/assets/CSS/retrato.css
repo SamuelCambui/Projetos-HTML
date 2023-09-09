@@ -649,7 +649,7 @@ hr{
     }
 
     nav ul {
-        padding-top: 10px;
+        padding-top: 50px;
         overflow-y: auto; /* Adicione esta linha para habilitar a rolagem vertical */
         height: 250px; /* Defina a altura máxima para a lista, ajuste conforme necessário */
     }
