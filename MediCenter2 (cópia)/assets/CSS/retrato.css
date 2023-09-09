@@ -656,16 +656,6 @@ hr{
         padding: 20px;
     }
     
-    .footer_menu{
-        flex-direction: column;
-    }
-    .footer_area{
-        flex-direction: column;
-        padding: 20px;
-    }
-    .footer_copy{
-        padding-left: 20px;
-    }
     header{
         height: 90px;
     }
