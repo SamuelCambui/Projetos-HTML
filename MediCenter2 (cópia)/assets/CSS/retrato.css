@@ -653,6 +653,7 @@ hr{
     }
     nav a{
         line-height: 0.5;
+        padding: 0;
     }
     nav ul {
         padding-top: 50px;
@@ -851,8 +852,6 @@ hr{
         background: linear-gradient(to bottom, white, #F2CFCF);
         z-index: 1000;
         position: fixed;
-        margin: 0;
-        padding: 0;
 
     }
 
