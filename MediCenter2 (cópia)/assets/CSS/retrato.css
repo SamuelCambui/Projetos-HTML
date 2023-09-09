@@ -651,6 +651,9 @@ hr{
         padding: 0;
         margin: 0;
     }
+    nav a{
+        line-height: 0.5;
+    }
     nav ul {
         padding-top: 50px;
         overflow-y: auto; /* Adicione esta linha para habilitar a rolagem vertical */
@@ -848,8 +851,8 @@ hr{
         background: linear-gradient(to bottom, white, #F2CFCF);
         z-index: 1000;
         position: fixed;
-        margin: 0px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
 
     }
 
