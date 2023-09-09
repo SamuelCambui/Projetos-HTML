@@ -648,6 +648,11 @@ hr{
         overflow-x: hidden; 
     }
 
+    nav ul {
+        overflow-y: auto; /* Adicione esta linha para habilitar a rolagem vertical */
+        max-height: 150px; /* Defina a altura máxima para a lista, ajuste conforme necessário */
+    }
+
     .logo {
         width: 120%;
         transform: scale(1.1);
