@@ -654,6 +654,22 @@ hr{
     .container{
         flex-direction: column;
     }
+    #geral section,
+    #geral aside{
+        padding: 20px;
+    }
+    
+    .footer_menu{
+        flex-direction: column;
+    }
+    .footer_area{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer_copy{
+        padding-left: 20px;
+    }
+
     
 }
 
