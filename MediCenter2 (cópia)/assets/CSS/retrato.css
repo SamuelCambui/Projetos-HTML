@@ -848,7 +848,8 @@ hr{
         background: linear-gradient(to bottom, white, #F2CFCF);
         z-index: 1000;
         position: fixed;
-        padding-bottom: -80px;
+        margin: 0px;
+        padding: 0px;
 
     }
 
