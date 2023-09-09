@@ -669,6 +669,9 @@ hr{
     .footer_copy{
         padding-left: 20px;
     }
+    header{
+        height: 90px;
+    }
 
     
 }
