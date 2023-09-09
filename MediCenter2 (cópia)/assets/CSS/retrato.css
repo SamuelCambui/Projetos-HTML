@@ -651,9 +651,6 @@ hr{
         width: 80%;
         transform: scale(0.9);
     }
-    .container{
-        flex-direction: column;
-    }
     #geral section,
     #geral aside{
         padding: 20px;
