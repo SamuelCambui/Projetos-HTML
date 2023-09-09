@@ -843,7 +843,7 @@ hr{
     header{
         display: flex;
         justify-content: center;
-        height: 80px;
+        height: 130px;
         width: 100%;
         background: linear-gradient(to bottom, white, #F2CFCF);
         z-index: 1000;
