@@ -15,23 +15,12 @@
         window.onload = function(){
             document.querySelector(".menuMobile").addEventListener("click",function(){
                 if(document.querySelector(".menu nav ul ").style.display == 'flex'){
-                    document.querySelector(".menu nav ul ").style.display = 'none';
+                    document.querySelector(".menu nav ul ").style.display = 'none' && 'overflow-y: auto;';
                 }else{
                     document.querySelector(".menu nav ul ").style.display = 'flex';
                 }
             });
-        };
-
-        // JavaScript para adicionar a classe quando o menu é aberto
-        function abrirMenu() {
-            document.body.classList.add('menu-aberto');
-        }
-
-        // JavaScript para remover a classe quando o menu é fechado
-        function fecharMenu() {
-            document.body.classList.remove('menu-aberto');
-        }
-    
+        };    
     </script>
 </head>
 <body>
@@ -123,7 +112,7 @@
             </div>
             <div class="footer_copy">
                 
-                Copyright - Sorveteria Ouro Branco - Todos os direitos reservados
+                Copyright - Sorveteria Ouro Branco - Todos os direitos reservadosS
             </div>
         </div>
 
