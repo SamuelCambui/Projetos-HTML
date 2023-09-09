@@ -22,13 +22,18 @@
 
                 let menuAberto = false;
                 menuAberto = !menuAberto;
+                
+                const menu = document.querySelector(".menu nav ul");
 
+                // Aplica a classe 'menu-aberto' ou remove com base no estado do menu
                 if (menuAberto) {
-                    document.body.classList.add('menu-aberto');
+                menu.style.display = 'flex';
+                document.body.classList.add('menu-aberto');
                 } else {
-                    document.body.classList.remove('menu-aberto');
+                menu.style.display = 'none';
+                document.body.classList.remove('menu-aberto');
                 }
-
+               
                 abrirMenu();
             });
         };
@@ -134,7 +139,7 @@
             </div>
             <div class="footer_copy">
                 
-                Copyright - Sorveteria Ouro Branco - Todos os direitos reservados1
+                Copyright - Sorveteria Ouro Branco - Todos os direitos reservados12
             </div>
         </div>
 
