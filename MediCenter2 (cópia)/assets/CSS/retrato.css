@@ -651,11 +651,6 @@ hr{
         width: 80%;
         transform: scale(0.9);
     }
-    #geral section,
-    #geral aside{
-        padding: 20px;
-    }
-    
     header{
         height: 90px;
     }
