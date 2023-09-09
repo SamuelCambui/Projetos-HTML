@@ -20,6 +20,15 @@
                     document.querySelector(".menu nav ul ").style.display = 'flex';
                 }
 
+                let menuAberto = false;
+                menuAberto = !menuAberto;
+
+                if (menuAberto) {
+                    document.body.classList.add('menu-aberto');
+                } else {
+                    document.body.classList.remove('menu-aberto');
+                }
+
                 abrirMenu();
             });
         };
@@ -125,7 +134,7 @@
             </div>
             <div class="footer_copy">
                 
-                Copyright - Sorveteria Ouro Branco - Todos os direitos reservados
+                Copyright - Sorveteria Ouro Branco - Todos os direitos reservados1
             </div>
         </div>
 
