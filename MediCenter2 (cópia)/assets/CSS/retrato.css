@@ -647,8 +647,9 @@ hr{
     body{
         overflow-x: hidden; 
     }
-    nav{
-        padding-top: -25px;
+    nav ul, nav li{
+        padding: 0;
+        margin: 0;
     }
     nav ul {
         padding-top: 50px;
