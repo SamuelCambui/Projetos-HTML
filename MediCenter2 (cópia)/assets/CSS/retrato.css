@@ -653,6 +653,9 @@ hr{
         overflow-y: auto; /* Adicione esta linha para habilitar a rolagem vertical */
         height: 250px; /* Defina a altura máxima para a lista, ajuste conforme necessário */
     }
+    nav ul li:first-child {
+        margin-top: -10px; /* Valor negativo igual ao padding-top do nav ul */
+    }
 
     .logo {
         width: 120%;
