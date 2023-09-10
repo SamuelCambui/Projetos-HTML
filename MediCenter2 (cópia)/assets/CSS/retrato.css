@@ -662,7 +662,8 @@ hr{
         background-color: transparent;
     }
     nav ul li a{
-        background-color: rgb(242, 207, 207);
+        /* background-color: rgb(242, 207, 207); */
+        background-color: white;
     }
     nav a{
         line-height: 0.5;
@@ -903,6 +904,16 @@ hr{
     }
     
     
+}
+
+@media(max-width:767px) and (max-height:428px) {
+   
+    .logo{
+        margin-left: 25px;
+    }
+    .content{
+        height: 620px;
+    }
 }
 
 
