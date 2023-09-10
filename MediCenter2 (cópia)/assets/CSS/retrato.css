@@ -654,13 +654,11 @@ hr{
     nav ul{
         padding: -20px;
         margin-top: -20px;
-        top: 68px;
+        top: 78px;
     }
-    nav ul li a{
-        background-color: aqua;
-    }
+    
     #menuSombra{
-        background-color: rgba(255, 255, 255, 0);
+        background-color: transparent;
     }
     nav a{
         line-height: 0.5;
@@ -858,7 +856,7 @@ hr{
     header{
         display: flex;
         justify-content: center;
-        height: 70px;
+        height: 85px;
         width: 100%;
         background: linear-gradient(to bottom, white, #F2CFCF);
         z-index: 1000;
