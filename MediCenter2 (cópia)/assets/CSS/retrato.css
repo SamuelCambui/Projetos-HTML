@@ -502,7 +502,7 @@ hr{
     }
 
     .menuMobile:focus{
-        border: 4px solid rgb(85, 82, 82);
+        border: 3px solid rgb(85, 82, 82);
     }
 
     .footer_area{
@@ -655,7 +655,7 @@ hr{
     nav ul{
         padding: -20px;
         margin-top: -20px;
-        top: 93.5px;
+        top: 93.8px;
     }
     
     #menuSombra{
