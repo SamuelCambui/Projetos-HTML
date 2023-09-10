@@ -647,6 +647,7 @@ hr{
     body{
         overflow-x: hidden; 
     }
+    
     nav li, nav a{
         padding: 0;
         margin: 0;
@@ -654,7 +655,7 @@ hr{
     nav ul{
         padding: -20px;
         margin-top: -20px;
-        top: 78px;
+        top: 93.5px;
     }
     
     #menuSombra{
@@ -859,7 +860,7 @@ hr{
     header{
         display: flex;
         justify-content: center;
-        height: 85px;
+        height: 95px;
         width: 100%;
         background: linear-gradient(to bottom, white, #F2CFCF);
         z-index: 1000;
