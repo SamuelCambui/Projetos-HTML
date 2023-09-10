@@ -655,12 +655,12 @@ hr{
         padding: -20px;
         margin-top: -20px;
         top: 68px;
-        background-color: rgb(31, 168, 168);
-        color: rgba(255, 0, 0, 0);
-        position: absolute;
+    }
+    nav ul li a{
+        background-color: aqua;
     }
     #menuSombra{
-        background-color: #ffffff00
+        background-color: rgba(255, 255, 255, 0);
     }
     nav a{
         line-height: 0.5;
