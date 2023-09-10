@@ -661,7 +661,7 @@ hr{
         background-color: transparent;
     }
     nav ul li a{
-        background-color: white;
+        background-color: rgb(242, 207, 207);
     }
     nav a{
         line-height: 0.5;
