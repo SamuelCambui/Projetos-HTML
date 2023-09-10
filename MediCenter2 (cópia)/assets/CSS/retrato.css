@@ -654,11 +654,13 @@ hr{
     nav ul{
         padding: -20px;
         margin-top: -20px;
-        top: 70px;
-        background-color: rgba(255, 255, 255, 0);
+        top: 68px;
+        background-color: rgb(31, 168, 168);
         color: rgba(255, 0, 0, 0);
         position: absolute;
-        padding: 0;
+    }
+    #menuSombra{
+        background-color: #ffffff00
     }
     nav a{
         line-height: 0.5;
