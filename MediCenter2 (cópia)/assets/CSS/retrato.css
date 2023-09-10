@@ -660,6 +660,9 @@ hr{
     #menuSombra{
         background-color: transparent;
     }
+    nav ul li a{
+        background-color: white;
+    }
     nav a{
         line-height: 0.5;
         padding: 0;
